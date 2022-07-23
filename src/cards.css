@@ -1,0 +1,25 @@
+.cards_incoming{
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 15px;
+}
+
+.cards_fetches{
+	width: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left_sides{
+	height: 300px;
+	background: black;
+	width: 40%;
+}
+
+.right_sides{
+	height: 300px;
+	background: rgb(86, 131, 193);
+	width: 60%;
+	color: aliceblue;
+}
